@@ -160,6 +160,19 @@ section {
 .footer {
     background-color: #024B4B;
     padding: 2em 2em 0.5em 2em;
+
+    .copyright-footer {
+        color: white;
+        font-size: 14px;
+        padding-bottom: 2em;
+        display: flex;
+        justify-content: center;
+
+        li {
+            display: block;
+            padding: 0 0.3em;
+        }
+    }
 }
 
 .social-footer {
@@ -167,7 +180,11 @@ section {
 
     ul {
         display: flex;
-        justify-content: space-evenly;
+        justify-content: center;
+        
+        li {
+            padding: 0 1em;
+        }
 
         img {
             width: 50px;
@@ -227,7 +244,7 @@ section {
         }
 
         .copyright {
-            padding: 10px;
+            font-size: 12px;
         }
 
         .separator {
